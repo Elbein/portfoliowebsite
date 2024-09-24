@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #black;
+}
+
+ul.horizontalList {
+  display: flex;
+  justify-content: center;
+}
+
+.test{
+    height:200px;
+    width:200px;
+}
+
+li.proj {
+  text-align: center;
+}
+
+li.rando {
+  float: left;
+  text-align: center;
+}
+
+
+
+#ex1 {
+  float: left;
+}
+
+#ex3 {
+  float: left;
+
+}
+
+#ex2 {
+  float: right;
+}
+
+div.intro {
+  width: 500px;
+  border: 5px black;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 1.8em;
+}
+
+div.vl {
+   border-left: 4px solid gray;
+  height: 200px;
+
+}
+
+article {
+  color: white;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 16px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #cbddfb;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.getintouch:visited {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  padding: 5px;
+}
+
+b {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+div.container {
+  text-align: center;
+}
+
+
+
+
+
+li a.headbar:hover {
+  background-color: #111111;
+}
+
+
+</style>
+</head>
+
+<body style="background-color:white;">
+
+  <ul style = "background-color: black; color: white">
+  <li><h1 style = "color: white"; id = "ex1" padding: 5px>Benjamin Horn</h1></li>
+  <!-- <li><a id = "ex2" style="font-size:150%; margin-top: 15px; "href="contactinfo.html">Contact Info</a></li> -->
+  <li><a id = "ex2" style="font-size:150%; margin-top: 15px; "href="projects.html">My Projects</a></li>
+  <li><a id = "ex2" style="font-size:150%; margin-top: 15px; "href="myskills.html">My Skills</a></li>
+  <li><a id = "ex2" style="font-size:150%; margin-top: 15px; "href="whoami.html">About Me</a></li>
+  <li><a id = "ex2" style="font-size:150%; margin-top: 15px; "href="index.php">Home</a></li>
+</ul>
+
+</body>
+
+
+<body style = "background-color: white;">
+
+  <h1 style = "color: black; font-size: 50px; padding-left: 30px">My Projects</h1>
+
+
+<div style = "text-align: center";>
+<a style="font-size:30px; color: black; margin-top: 15px; "href="heataharchive/bens_heatah_fajita_archive.php" target="_blank">Heatah Fajita Team Archive</a>
+<ul>
+ <li class = "proj"><img src="images/heatahfilterpage.png" style="width:400px;height:200px;" alt="Filter Page"></li>
+ <li class = "proj" ><img src="images/heatahbandsand.png" style="width:400px;height:200px;" alt="Band Sand Team"></li>
+</ul>
+
+<p>Made as a tribute to a cancelled and now partially lost competitive Pok&#233;mon series on YouTube, this website hosts a database preserving around five hundred teams which spawned from it.  Built through a combination of MySQL, JavaScript, and Python, it is one of the personal projects I am most passionate about. </p>
+</div>
+
+<div style = "text-align: center";>
+  <article style="font-size: 30px; color: black">Fire Emblem Shin Monshou No Nazo: Weapon Stats Randomizer</article>
+<ul class = "horizontalList">
+ <li class = "rando"><img src="images/randomizerIronSword.png" style="width:200px;height:400px;" alt="Randomized Iron Sword"></li>
+ <li class = "rando"><img src="images/randomizerIronLance.png" style="width:200px;height:400px;" alt="Randomized Iron Lance"></li>
+ <li class = "rando"><img src="images/randomizerHandAxe.png" style="width:200px;height:400px;" alt="Randomized Hand Axe"></li>
+</ul>
+
+<p>Another personal project of mine based around one of my favorite games, I made a program to randomize the stats of every obtainable weapon in the game.  Built using Python, the ndspy library, and even a bit of assembly reading to determine where everything is, this is a work-in-progress that I hope to maybe release one day. </p>
+</div>
+
+
+
+  <div style = "text-align: center"> more to come soon!</div>
+
+
+
+</body>
+
+
+</html>
